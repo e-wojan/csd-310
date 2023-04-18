@@ -3,10 +3,14 @@
 #Module 6 Assignment
 #April 18, 2023
 
+"""The purpose of this program is to enable access to the MySQL movies
+database."""
 
+#Necessary python imports.
 import mysql.connector
 from mysql.connector import errorcode
 
+#For congiguring the database.
 config = {
 	"user": "movies_user",
 	"password": "popcorn",
@@ -15,6 +19,7 @@ config = {
 	"raise_on_warnings": True
 }
 
+#For testing the connection with the MySQL database.
 try:
 	db = mysql.connector.connect(**config)
 	
