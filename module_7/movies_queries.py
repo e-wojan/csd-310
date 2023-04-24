@@ -1,7 +1,7 @@
 #Emily Wojan
 #CSD 310
 #Module 7 Assignment
-#April 24, 2023
+#April 25, 2023
 
 """The purpose of this program is to enable access to the MySQL movies
 database and query the MySQL movie database."""
